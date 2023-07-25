@@ -116,3 +116,23 @@ const Heloo=function (a) {
 
 const sid=Heloo('siddharth');
 console.log(sid);
+
+
+
+
+
+
+function fruitCutpieces(fruit) {
+  return fruit*4;
+}
+
+
+function fruitJuices(apples,oranges) {
+    const aples=fruitCutpieces(apples);
+    const orange=fruitCutpieces(oranges);
+
+    return `here is a juice of ${aples} cut piece of apples and ${orange} cut pieces of oranges`
+}
+
+
+console.log(fruitJuices(2,3));
