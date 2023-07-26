@@ -155,3 +155,29 @@ welcome.classList.add('hidden');
 btun.addEventListener('click',function () {
    welcome.classList.remove('hidden');
 })
+
+
+
+//how to find the max and min from a array
+
+const temp=[301,2,1,4,5,7,10,12,14,34,56,21,43,56,87,12,32,45,78,71,12,43,98,45,12,'error',43,66,22,33,44,88,11,22,221];
+let minValue=Infinity;
+let maxValue=-Infinity;
+
+for (let item of temp) {
+
+  if (item==='error')
+    {}
+  if (item>maxValue)
+    maxValue=item
+  if (item<minValue)
+    minValue=item;
+
+
+}
+
+
+console.log("min "+minValue);
+console.log('max '+maxValue);
+
+console.log("Amplitude "+Number(maxValue-minValue));
