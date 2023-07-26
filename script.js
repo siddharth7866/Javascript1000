@@ -136,3 +136,22 @@ function fruitJuices(apples,oranges) {
 
 
 console.log(fruitJuices(2,3));
+
+
+
+
+
+
+
+
+// hidden feature of css using javascript
+
+let btun=document.getElementById('btn');
+let welcome=document.getElementById('welcome');
+
+welcome.classList.add('hidden');
+
+
+btun.addEventListener('click',function () {
+   welcome.classList.remove('hidden');
+})
