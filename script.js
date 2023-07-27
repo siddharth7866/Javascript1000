@@ -230,3 +230,10 @@ if (muName==='siddharth') {
   console.log(`hello my name is ${muName} and my job is ${job}`);
   const job='Teacher';
 }
+
+
+
+//Hoisting Concept:
+
+console.log(namees);
+let namees='siddharth'
