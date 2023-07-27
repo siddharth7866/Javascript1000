@@ -181,3 +181,43 @@ console.log("min "+minValue);
 console.log('max '+maxValue);
 
 console.log("Amplitude "+Number(maxValue-minValue));
+
+
+
+
+
+
+
+const measureTemp=function() {
+    const tempx={
+        name:'Siddharth',
+        Age:30,
+        tempValue:237
+
+    }
+
+    const za=tempx.tempValue+Number(prompt("enter the temp"));
+    return za;
+}
+
+
+console.log(measureTemp());
+
+
+function calcage(age) {
+  const aged=2037-age;
+
+  function agedt() {
+    const output=`the age is ${aged} of yours`
+    console.log(output);
+
+
+
+
+  }
+  agedt();
+  return aged;
+
+}
+
+console.log(calcage(1993));
