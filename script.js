@@ -221,3 +221,12 @@ function calcage(age) {
 }
 
 console.log(calcage(1993));
+
+
+
+//TDZ concept-Temporal Dead Zone
+const muName='siddharth';
+if (muName==='siddharth') {
+  console.log(`hello my name is ${muName} and my job is ${job}`);
+  const job='Teacher';
+}
