@@ -237,3 +237,28 @@ if (muName==='siddharth') {
 
 console.log(namees);
 let namees='siddharth'
+
+
+
+
+
+
+var tge=30
+var oldtge=tge;
+
+tge=31
+
+console.log(tge,oldtge)
+
+
+
+const den={
+  name:'rohit',
+  age:34,
+}
+
+const sid=den;
+sid.age=27;
+
+console.log(den);
+console.log(sid);
