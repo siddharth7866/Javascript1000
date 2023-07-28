@@ -240,7 +240,7 @@ let namees='siddharth'
 
 
 
-
+// how data is stored in the stack and heap as object is stored in Heap and with help of identifiers.
 
 
 var tge=30
