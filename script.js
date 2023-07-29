@@ -262,3 +262,20 @@ sid.age=27;
 
 console.log(den);
 console.log(sid);
+
+
+
+
+let sid =document.getElementsByTagName('p');
+
+
+let botton=document.getElementsByTagName('button');
+
+function display(){
+
+    var d= new Date();
+    sid.innerHTML=d.getFullYear();
+        
+}
+
+botton.addEventListener('click',display);
