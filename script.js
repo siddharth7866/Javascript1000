@@ -315,3 +315,32 @@ function display(){
 botton.addEventListener('mouseover',display);
 
 botton.addEventListener('mouseout',displayout);
+
+
+
+var sid=document.getElementsByTagName('h1')[0];
+
+
+var ran=Math.floor(Math.random()*16);
+var a='0123456789ABCCEA';
+// var num='#';
+
+function colorChanger() {
+    var num='#';
+  // var a='0123456789ABCDEF';
+  for (var i = 0; i < 6; i++) {
+    var ran=Math.floor(Math.random()*16);
+    num=num+a[ran];
+
+  }
+  return num;
+}
+
+console.log(colorChanger())
+function colorS() {
+  var col=colorChanger();
+  sid.style.color=col;
+}
+
+
+setInterval('colorS()',180);
