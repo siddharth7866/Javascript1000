@@ -263,8 +263,7 @@ sid.age=27;
 console.log(den);
 console.log(sid);
 
-
-
+//Light Display in designer mananer
 
 let sid =document.getElementsByTagName('p');
 
