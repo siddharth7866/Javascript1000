@@ -343,3 +343,30 @@ function colorS() {
 
 
 setInterval('colorS()',180);
+
+
+
+
+
+
+//Dest
+
+
+const arr=[1,2,3,4,5];
+
+let [a,b,c]=arr;
+[a,b]=[b,a]
+console.log("a",a)
+console.log("b",b)
+
+
+
+const sid={
+  name:'siddharth',
+  Address:'GkP',
+  job:'Software Developer',
+
+}
+
+const {name,job}=sid;
+console.log(`hello ${name} so you are ${job}`)
