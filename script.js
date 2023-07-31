@@ -370,3 +370,20 @@ const sid={
 
 const {name,job}=sid;
 console.log(`hello ${name} so you are ${job}`)
+
+
+
+
+const Menu=[...restaurant.starterMenu,...restaurant.mainMenu];
+// for (const item of Menu.entries()){
+//   console.log(`${item[0]+1}:${item[0]}`);
+// }
+
+
+// for (const item of Menu.entries()) {
+//     console.log(`${item[0]+1}:${item[1]}`);
+// }
+
+for (const [i,j] of Menu.entries()) {
+  console.log(`${i+1}:${j}`);
+}
