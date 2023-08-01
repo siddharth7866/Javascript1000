@@ -424,3 +424,11 @@ const sider=function(str){
 }
 
 console.log(sider("siddharth vishen"))
+
+const vider=function(str){
+  const [first,...other]=str.split(' ');
+  return [first.toUpperCase(),...other].join(' ');
+}
+console.log(vider('sidharth Vishen'))
+let a='siddharth vishen'
+console.log(a.split(' '));
