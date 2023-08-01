@@ -415,3 +415,12 @@ function tableOf(a) {
 }
 
 tableOf(4)
+
+
+
+
+const sider=function(str){
+  return str.replace(/ /g,'').toLowerCase();
+}
+
+console.log(sider("siddharth vishen"))
