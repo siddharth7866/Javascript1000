@@ -396,3 +396,22 @@ function candy(qty,price=qty*5) {
 
 
 candy(5);
+
+
+
+//table of given digit from user into the function:
+
+function tableOf(a) {
+  let number=a
+  let incr=1
+  console.log(typeof(number));
+  if (typeof(number)==='number') {
+    for (var i = 0; i < 10; i++) {
+      console.log(`${number}x${incr+i}=${number*(incr+i)}`);
+    }
+  }else{
+    console.log("please enter valid int");
+  }
+}
+
+tableOf(4)
