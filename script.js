@@ -387,3 +387,12 @@ const Menu=[...restaurant.starterMenu,...restaurant.mainMenu];
 for (const [i,j] of Menu.entries()) {
   console.log(`${i+1}:${j}`);
 }
+
+//default parameter for fucntions
+
+function candy(qty,price=qty*5) {
+  console.log(`Here are your ${qty} candies for ${price} rupees!`)
+}
+
+
+candy(5);
