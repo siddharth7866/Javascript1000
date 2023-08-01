@@ -432,3 +432,11 @@ const vider=function(str){
 console.log(vider('sidharth Vishen'))
 let a='siddharth vishen'
 console.log(a.split(' '));
+
+
+
+const greet=(greet,name)=>{
+  console.log(`${greet}!${name}`)
+}
+
+greet('hello','Jonas')
