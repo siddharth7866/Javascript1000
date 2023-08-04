@@ -462,3 +462,4 @@ console.log(addTax(0.1, 200));
 
 const addVAT = addTax.bind(null, 0.23);
 // addVAT = value => va
+// Bind method is for making the function to be acess differently along for same objects
