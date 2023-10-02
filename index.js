@@ -63,7 +63,7 @@ function decide() {
 }
 
 // decide();
-*/
+
 
 if (5 > 3) {
   var vishen = 10;
@@ -76,10 +76,36 @@ x = 100;
 console.log(x);
 var x;
 
-const ddd = 200;
+var ddd = 200;
 ddd = 300;
 console.log(ddd);
 
 //Data types determine the types of variable
 //primitive and non primitive data types
 //primitive data tpes value do not change
+var gopi = [100, 20, 30, 0.984, 5, 60, 17];
+console.log(gopi.filter((x) => x >= 100));
+console.log(gopi.map((x) => x - 100));
+console.log(gopi.reduce((total, current) => total + current));
+console.log(gopi.slice(1, 4));
+//Non Primitive data types are both mutable and and contain multiple elements
+//NUll and undefined
+let xyz;
+console.log(xyz);
+let za = null;
+console.log(za);
+console.log(gopi.map((x) => x + "sid"));
+//undefined is when in present there is no variable but in future there will be variable
+*/
+var sid = 42;
+var vis = "42";
+console.log(sid === vis);
+console.log(5 > 10 ? "Yes" : "NO");
+var sidd = true;
+console.log(sidd ? "siddharth" : "vishen");
+console.log(10 > 9 ? "sid" : "vishen");
+var A = 15;
+while (A > 9) {
+  A = A - 1;
+  console.log(`I am the best ${A}`);
+}
