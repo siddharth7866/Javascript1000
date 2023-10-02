@@ -64,3 +64,22 @@ function decide() {
 
 // decide();
 */
+
+if (5 > 3) {
+  var vishen = 10;
+  console.log("I am sid");
+}
+
+console.log(vishen);
+
+x = 100;
+console.log(x);
+var x;
+
+const ddd = 200;
+ddd = 300;
+console.log(ddd);
+
+//Data types determine the types of variable
+//primitive and non primitive data types
+//primitive data tpes value do not change
