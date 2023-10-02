@@ -96,16 +96,40 @@ let za = null;
 console.log(za);
 console.log(gopi.map((x) => x + "sid"));
 //undefined is when in present there is no variable but in future there will be variable
-*/
-var sid = 42;
+
+var sid = 4;
 var vis = "42";
 console.log(sid === vis);
 console.log(5 > 10 ? "Yes" : "NO");
 var sidd = true;
 console.log(sidd ? "siddharth" : "vishen");
-console.log(10 > 9 ? "sid" : "vishen");
+console.log(sid > 9 ? "sid" : sid > 5 ? "yes grt than 5" : "less than 5");
 var A = 15;
 while (A > 9) {
   A = A - 1;
   console.log(`I am the best ${A}`);
 }
+//short circuiting in javascript
+function scrt() {
+  console.log("|| short circuiting");
+}
+var sidrt = scrt();
+
+console.log(true && false);
+switch (sid > 50) {
+  case true:
+    console.log("greater than 50");
+
+    break;
+  case false:
+    console.log("less than 50");
+
+  default:
+    break;
+}
+*/
+let sid = [1, 2, 3, 4, 5];
+console.log(...sid, 6);
+const [sidd, vishen] = sid;
+console.log(sidd);
+console.log(vishen);
