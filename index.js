@@ -127,9 +127,10 @@ switch (sid > 50) {
   default:
     break;
 }
-*/
+
 let sid = [1, 20, 3, 4, 5];
 let gopi = { skill: "php", core: "entreprenuer", address: "gkp" };
+
 // let msd = prompt("enter the value");
 
 console.log(...sid);
@@ -160,3 +161,31 @@ var newarry = sid.map((x) => x + 2);
 console.log(newarry);
 let forarry = newarry.forEach((e) => console.log(e + 2));
 console.log(forarry);
+console.log(sid);
+sid.sort();
+console.log(sid);
+
+const sidfruits = ["apple", "grapes", "banana", "litchi"];
+const [rajatshahi, gaurav, anurag] = sidfruits;
+console.log(rajatshahi);
+console.log(anurag);
+console.log(anurag.length);
+console.log(anurag[2]);
+var gopi2 = { 0: "s", 1: "v", 2: "s", 3: "rajat" };
+var dexc = Array.from(gopi2);
+console.log(dexc);
+*/
+//Loops are the most important topics in any programming logic
+var sid = 10;
+while (sid > 2) {
+  sid = sid - 1;
+  if (sid === 2) {
+    console.log(`I am 2 and its time to go ! ❤️ Good Bye`);
+    break;
+  }
+  console.log(`I am ${sid} still less than 10`);
+}
+var gopi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (x of gopi) {
+  console.log(x);
+}
