@@ -128,8 +128,35 @@ switch (sid > 50) {
     break;
 }
 */
-let sid = [1, 2, 3, 4, 5];
-console.log(...sid, 6);
-const [sidd, vishen] = sid;
+let sid = [1, 20, 3, 4, 5];
+let gopi = { skill: "php", core: "entreprenuer", address: "gkp" };
+// let msd = prompt("enter the value");
+
+console.log(...sid);
+const [sidd, vishen, rajat] = sid;
 console.log(sidd);
 console.log(vishen);
+console.log(rajat);
+const { skill, address } = gopi;
+console.log(skill);
+console.log(address);
+//Arrays in javscript
+console.log(sid.indexOf(5));
+console.log(sid.find((x) => x % 2 === 0));
+console.log(sid.filter((x) => x !== 3));
+console.log(sid.push(786));
+console.log(sid);
+console.log(...sid, 200);
+console.log(sid);
+console.log(sid.pop());
+console.log(sid);
+console.log(sid.shift());
+console.log(sid);
+//splice methos is one of the most important method
+console.log(sid);
+console.log(sid.splice(1, 0, 786));
+console.log(sid);
+var newarry = sid.map((x) => x + 2);
+console.log(newarry);
+let forarry = newarry.forEach((e) => console.log(e + 2));
+console.log(forarry);
